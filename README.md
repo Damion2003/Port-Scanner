@@ -1,16 +1,29 @@
 # Port-Scanner
 
-A simple, lightweight port scanner built in Python,, designed to identify open ports and services on a target system. This tool can be used for network security assessments, troubleshooting, and understanding system configurations.
+A simple port scanner built in Python to scan open ports on a system or network. This tool allows you to find open ports and identify services running on a target system. Before running the scanner, you'll need to find your system's IP address using the ipconfig command in the Command Prompt (CMD).
 
 
 
-#Features
+# Features
+
+Scans a specific IP address or a range of IP addresses.
+
+Detects open ports on the specified IP.
+
+Identifies services running on open ports.
+
+Easy to use with simple command-line arguments.
+
+# Requirements
+
+Python3 
+socket library
 
 
-Scans a range of IP addresses or a single IP address
+# Usage
 
-Supports TCP and UDP scanning (optional based on your tool)
+``` cmd
+python3 scanner.py <your-ip>
+```
 
-Identifies open ports and services running on those ports
 
-Displays results in a user-friendly format
