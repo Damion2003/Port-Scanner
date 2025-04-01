@@ -22,7 +22,7 @@ Python3
 # Usage
 
 ``` cmd
-python3 scanner.py <your-ip>
+python3 portscanner.py <your-ip>
 ```
 
 
