@@ -18,8 +18,6 @@ Easy to use with simple command-line arguments.
 
 Python3 
 
-import socket library
-
 
 # Usage
 
