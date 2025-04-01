@@ -17,7 +17,8 @@ Easy to use with simple command-line arguments.
 # Requirements
 
 Python3 
-socket library
+
+import socket library
 
 
 # Usage
